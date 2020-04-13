@@ -1,0 +1,49 @@
+root@lamp-s-1vcpu-1gb-nyc1-01:~# nmap github.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:10 UTC
+Nmap scan report for github.com (140.82.113.3)
+Host is up (0.0091s latency).
+rDNS record for 140.82.113.3: lb-140-82-113-3-iad.github.com
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+9418/tcp open  git
+
+Nmap done: 1 IP address (1 host up) scanned in 16.19 seconds
+root@lamp-s-1vcpu-1gb-nyc1-01:~# ^C
+root@lamp-s-1vcpu-1gb-nyc1-01:~# nmap -p 80 github.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:11 UTC
+Nmap scan report for github.com (140.82.113.3)
+Host is up (0.0098s latency).
+rDNS record for 140.82.113.3: lb-140-82-113-3-iad.github.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+root@lamp-s-1vcpu-1gb-nyc1-01:~# nmap -p 200-400 github.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:12 UTC
+Nmap scan report for github.com (140.82.114.3)
+Host is up (0.0086s latency).
+rDNS record for 140.82.114.3: lb-140-82-114-3-iad.github.com
+All 201 scanned ports on github.com (140.82.114.3) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 5.52 seconds
+root@lamp-s-1vcpu-1gb-nyc1-01:~# nmap -f github.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-13 20:12 UTC
+Nmap scan report for github.com (140.82.114.3)
+Host is up (0.0093s latency).
+rDNS record for 140.82.114.3: lb-140-82-114-3-iad.github.com
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+9418/tcp open  git
+
+Nmap done: 1 IP address (1 host up) scanned in 16.17 seconds

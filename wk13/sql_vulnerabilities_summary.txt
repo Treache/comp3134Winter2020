@@ -1,0 +1,5 @@
+1) there is nothing like user table is in the table
+
+2) Ben as a user is displayed in table, even his status is zero which is not active.
+
+3) there is no user table in table, I saw warning on the page which says =mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given

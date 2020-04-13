@@ -1,0 +1,17 @@
+$ tracert github.com
+
+Tracing route to github.com [140.82.113.3]
+over a maximum of 30 hops:
+
+  1    52 ms     2 ms     2 ms  10.4.64.1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10    25 ms    22 ms    22 ms  lb-140-82-113-3-iad.github.com [140.82.113.3]
+
+Trace complete.

@@ -1,0 +1,11 @@
+root@lamp-s-1vcpu-1gb-nyc1-01:~# ping github.com -w 5
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=52 time=9.73 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=52 time=9.19 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=52 time=9.22 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=4 ttl=52 time=9.12 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=5 ttl=52 time=9.29 ms
+
+--- github.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 9.120/9.314/9.736/0.249 ms

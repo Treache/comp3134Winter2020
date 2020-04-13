@@ -1,0 +1,4 @@
+What you see on the browser (the issue) = i saw my array that there is nothing in each index 
+
+
+What sensitive information is given by this page =  nothing, cause it is empty 

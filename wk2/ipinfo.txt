@@ -1,0 +1,19 @@
+Domain1: Facebook.com
+IP Address: 31.13.71.36
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A 
+
+Domain2: twitter.com
+IP Address: 104.244.42.193
+Geolocation: US (United States), CA, California, 94103 San Francisco
+
+Domain3: cbcnews.com
+IP Address: 207.244.67.138
+Geolocation: NL (Netherlands), N/A, N/A, N/A N/A
+
+Domain4: gmail.com
+IP Address: 172.217.10.37
+Geolocation: US (United States), CA, California, 94043 Mountain View
+
+Domain5: github.com
+IP Address: 192.30.253.113
+Geolocation: US (United States), CA, California, 94107 San Francisco

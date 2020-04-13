@@ -1,0 +1,12 @@
+create database mySchema
+
+use mySchema;
+
+create table users( id INT NOT NULL AUTO_INCREMENT, username VARCHAR(50), email VARCHAR(50), firstname VARCHAR(50), lastname VARCHAR(50), active INT(10), PRIMARY KEY (id) );
+
+INSERT INTO `users`(username,email,firstname,lastname,active) VALUES ('benblanc','benblanc@gbc.ca','Ben','Blanc',0);
+INSERT INTO `users`(username,email,firstname,lastname,active) VALUES ('Pariasa','parisakhataei@gmail.com','Parisa','Khata',0)
+INSERT INTO `users`(username,email,firstname,lastname,active) VALUES ('Mo','Mo.mous@gmail.com','Mo','Mous',0)
+INSERT INTO `users`(username,email,firstname,lastname,active) VALUES ('Ruthie','ruthlongmore@gmail.com','ruth','Long',1);
+INSERT INTO `users`(username,email,firstname,lastname,active) VALUES ('Martybr','martybryde@gmail.com','Marty','Byrde',1);
+INSERT INTO `users`(username,email,firstname,lastname,active) VALUES ('Wendybr','wendybyrde@rhyta.com','Wendy','Byrde',1);

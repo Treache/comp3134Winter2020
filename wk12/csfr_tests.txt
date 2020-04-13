@@ -1,0 +1,4 @@
+by changing the action destination it can help to source application, 
+the thing is we have to protect the form and page that we are processing it
+session can help that can mitigate attacks, cause for poth page in this case have accsses to same value
+php is more sutiable becuase it has validation, but it can be vulnerable for attacks

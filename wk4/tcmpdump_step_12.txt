@@ -1,0 +1,8 @@
+root@lamp-s-1vcpu-1gb-nyc1-01:~# tcpdump -i eth0 dst 172.217.10.227
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:46:07.709773 IP lamp-s-1vcpu-1gb-nyc1-01 > lga25s59-in-f3.1e100.net: ICMP echo request, id 17140, seq 1, length 64
+20:46:08.711582 IP lamp-s-1vcpu-1gb-nyc1-01 > lga25s59-in-f3.1e100.net: ICMP echo request, id 17140, seq 2, length 64
+20:46:09.713053 IP lamp-s-1vcpu-1gb-nyc1-01 > lga25s59-in-f3.1e100.net: ICMP echo request, id 17140, seq 3, length 64
+20:46:10.714623 IP lamp-s-1vcpu-1gb-nyc1-01 > lga25s59-in-f3.1e100.net: ICMP echo request, id 17140, seq 4, length 64
+20:46:11.716220 IP lamp-s-1vcpu-1gb-nyc1-01 > lga25s59-in-f3.1e100.net: ICMP echo request, id 17140, seq 5, length 64

@@ -1,0 +1,3 @@
+in javascript injection wich the clinet is not aware of it.
+where the script is it could be there is no result or out put but the source code is changed. 
+it gives attacks
